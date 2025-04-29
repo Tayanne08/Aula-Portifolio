@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: rgb(241, 198, 224);
+    background-color: linear-gradient(135deg, #f89dcc, #e9c9de);
     font-family: arial, sans-serif;
 }
 .content {
@@ -22,17 +22,18 @@ p{
     content: "";
     position: absolute;
     bottom: 0;
-    width: 120px;
+    width: 100px;
     height: 100px;
     background-size: cover;
     background-position: center;
 }
 .backgrounds::before{
     left: 0;
-    background-image: url(Imagem/Family.jpg);
+    background-image: url(Imagem/Familia\ 2.png);
 }
 .backgrounds::after {
 right: 0;
-background-size: contain;
+background-size: contain; 
+background-repeat: no-repeat;
 background-image: url(Imagem/adm.png);
 }

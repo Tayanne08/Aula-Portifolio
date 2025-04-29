@@ -1,41 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tayanne Bomfim</title>
-    <link rel="stylesheet" href="/style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <!--Imagem do Rosto-->
-        <img class="foto" src="Imagem/file_000000003594623083280ddd2a27917b.png" alt="">
-        <br><br>
-
-        <input type="button" value="Meu botão com função JS">
+        <img class="foto" src="Imagem/file_000000003594623083280ddd2a27917b-removebg-preview.png" alt="Foto de Tayanne">
+        <h1>Tayanne Bomfim</h1>
+        <div class="menu">
+            <button><a href="sobre.html">SOBRE MIM</a></button>
+            <button><a href="fale.html">FALE COMIGO</a></button>
+            <button><a href="sobreMim.html">MEUS PROJETOS</a></button>
+            <button><a href="sobreMim.html">MEU CURRÍCULO</a></button>
+            <button><a href="sobreMim.html">CONHEÇA O FORD ENTER</a></button>
+        </div>
+        <input type="button" value="Meu botão com função JS" onclick="minhaFuncao()">
     </header>
 
     <main>
-        <h1>Tayanne Bomfim</h1>
-
-        <ul>
-            <li><a href="sobreMim.html"><button>SOBRE MIM</button></a></li>
-            <li><a href="sobreMim.html"><button>FALE COMIGO</button></a></li>
-            <li><a href="sobreMim.html"><button>MEUS PROJETOS</button></a></li>
-            <li><a href="sobreMim.html"><button>MEU CURRICULO</button></a></li>
-            <li><a href="sobreMim.html"><button>CONHEÇA O FORD ENTER</button></a></li>
-        </ul>
+        <h2>Olá seja bem - vindo!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius ducimus, alias commodi aliquid repudiandae
+            saepe quaerat quibusdam molestiae deserunt assumenda architecto tempore veniam ab ut tenetur quos,
+            exercitationem odio.</p>
     </main>
 
-    <footer>
-        <h2>SOBRE MIM</h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius ducimus, alias commodi aliquid repudiandae
-        saepe quaerat quibusdam molestiae deserunt assumenda architecto tempore veniam ab ut tenetur quos,
-        exercitationem odio.
-    </footer>
+    <script>
+        function minhaFuncao() {
+            alert("Função JavaScript executada!");
+        }
+    </script>
 </body>
 
 </html>
