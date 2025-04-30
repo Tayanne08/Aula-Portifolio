@@ -25,6 +25,7 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     max-width: 900px;
     width: 90%;
+    margin-right: 50px;
 }
 
 /* Seção do formulário */

@@ -1,24 +1,55 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* fundo */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f89dcc, #e9c9de);
+    color: #333;
     display: flex;
-    background-color: linear-gradient(135deg, #f89dcc, #e9c9de);
-    font-family: arial, sans-serif;
+    flex-direction: column;
 }
-.content {
-    text-align: center;
-    margin-bottom: 20px;
-    z-index: 1;
-    position: relative;
+
+/* cabeçalho */
+header {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
-h2{
-    font-size: 24px;
+
+.foto {
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+h1{
+    display: flex;
+    color: #5e0533;
+    margin-left: 10px;
+    padding: 5px 0;
+    margin: -4%;
+    justify-content: center;
+    font-family: 'Times New Roman', serif;
+    font-size: 40px;
+   
 }
 p{
-    font-size: 18px;
-    color: #666;
+    color: #2c0117;
+    margin-left: 10px;
+    padding: 5px 0; 
+    margin: 5%;
+    /* margin-top: -30px; */
+    font-family: 'Times New Roman', serif;
+    font-size: 17px;
+
 }
-.backgrounds::before, .backgrounds::after{
+/* .backgrounds::before, .backgrounds::after{
     content: "";
     position: absolute;
     bottom: 0;
@@ -30,10 +61,13 @@ p{
 .backgrounds::before{
     left: 0;
     background-image: url(Imagem/Familia\ 2.png);
+    
+    
 }
 .backgrounds::after {
 right: 0;
 background-size: contain; 
 background-repeat: no-repeat;
 background-image: url(Imagem/adm.png);
-}
+} */
+ /* Para fotos */
