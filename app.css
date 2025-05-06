@@ -1,0 +1,45 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(208, 240, 192, 1) 0%, rgba(184, 216, 186, 1) 50%);
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #4caf50;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo das seções */
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsividade */
+  @media screen and (max-width: 768px) {
+    body {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+  
