@@ -1,17 +1,15 @@
 /* fundo */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #f89dcc, #e9c9de);
-    color: #333;
+    background-color: #bbdefb;
+    color: #333333; /* Texto em cinza escuro */
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
 }
 
 
 /* cabeçalho */
 header {
-    background-color: #ad427a;
+    background-color: #bbdefb;
     height: 200px;
     width: 100%;
     display: flex;
@@ -25,7 +23,8 @@ header {
 }
 
 h1 {
-    color: #5e0533;
+    font-family: 'Playfair Display', serif;
+    color: #333333;
     margin-left: 10px;
     padding: 5px 0;
 }
@@ -42,8 +41,8 @@ h1 {
 /* classe especificando os botões */
 .menu button {
     padding: 5px;
-    background-color: #6c0e3e;
-    color: #e9c9de;
+    background-color: #e3f2fd;
+    color: #333333;
     border: solid 3px black;
     border-radius: 15px;
     margin-left: 20px;
@@ -51,27 +50,29 @@ h1 {
 
 /* classe especificando os links dos botões */
 .menu button a {
-    color: #e9c9de;
+    color: #333333;
     text-decoration: none;  /* muda a decoração do texto */
 }
 
 input {
     padding: 5px;
-    background-color: #6c0e3e;
-    color: #e9c9de;
+    background-color: #e3f2fd;
+    color: #333333;
     border: solid 3px black;
     border-radius: 15px;
     margin-right: 20px;
     /* margin-bottom: 100px; */
 }
 h2 {
-    color: #5e0533;
+    font-family: 'Playfair Display', serif;
+    color: #333333;
     margin-left: 10px;
     padding: 5px 0;
     margin-top: 100px;
 }
 p{
-    color: #5e0533;
+    font-family: 'Playfair Display', serif;
+    color: #333333;
     margin-left: 10px;
     padding: 5px 0;
     /* margin-top: -7%;  */

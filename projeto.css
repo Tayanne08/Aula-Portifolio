@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 40px;
-    background: linear-gradient(135deg, #f89dcc, #e9c9de);
+    background-color: #bbdefb;
     text-align: center;
   }
 
@@ -22,7 +22,7 @@ body {
   }
 
   .card {
-    background-color: white;
+    background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -47,7 +47,7 @@ body {
   .card-content h2 {
     margin: 10px 0;
     font-size: 22px;
-    color: #b0136e;
+    color: #333333; /* Texto em cinza escuro */
   }
 
   .card-content p {
@@ -60,7 +60,7 @@ body {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #b0136e;
+    background-color: #88bae6;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -68,5 +68,5 @@ body {
   }
 
   .card-content a:hover {
-    background-color: #8a0f56;
+    background-color: #3285ce;
   }
