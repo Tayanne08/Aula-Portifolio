@@ -11,6 +11,7 @@ body {
     background-color: #bbdefb;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #333333; /* Texto em cinza escuro */
@@ -26,6 +27,7 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     max-width: 900px;
     width: 90%;
+    height: 75%;
     margin-right: 50px;
 }
 
@@ -110,15 +112,16 @@ form button:hover {
 /* cabeçalho */
 header {
     background-color: #bbdefb;
-    height: 200px;
+    height: 150px;
     width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
 .foto {
-    height: 200px;
-    width: 200px;
+    height: 130px;
+    width: 170px;
     display: block;
 }
 

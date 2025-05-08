@@ -18,15 +18,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 30px;
+    gap: 100px;
   }
 
   .card {
     background-color: #f9f9f9;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    width: 280px;
+    width: 200px;
     text-align: center;
     transition: transform 0.3s ease;
   }
@@ -70,3 +70,51 @@ body {
   .card-content a:hover {
     background-color: #3285ce;
   }
+  /* cabeçalho */
+header {
+  background-color: #bbdefb;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.foto {
+  height: 130px;
+  width: 170px;
+  display: block;
+}
+/* classe (inteira) dos botões */
+.menu {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  list-style: none;
+}
+
+/* classe especificando os botões */
+.menu button {
+  padding: 5px;
+  background-color: #e3f2fd;
+  color: #333333;
+  border: solid 3px black;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+/* classe especificando os links dos botões */
+.menu button a {
+  color: #333333;
+  text-decoration: none;  /* muda a decoração do texto */
+}
+input {
+  padding: 5px;
+  background-color: #e3f2fd;
+  color: #333333;
+  border: solid 3px black;
+  border-radius: 15px;
+  margin-right: 20px;
+  /* margin-bottom: 100px; */
+}
